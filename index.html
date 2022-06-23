@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/favicon.ico">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,18 +19,18 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="header-preview">
         <header class="header">
             <div class="header-logo">
-                <img src="./assets/img/svg/Vector.svg" alt="Logo image" class="header-logo-image">
+                <img src="./assets/img/svg/logo.svg" alt="Logo image" class="header-logo-image">
                 <h1 class="header-logo-text">Travel Portal</h1>
             </div>
             <!-- /.header-logo -->
 
             <nav class="header-nav">
                 <ul class="items">
-                    <li class="item"><a href="#">How It Works</a></li>
-                    <li class="item"><a href="#">Plan Your Trip</a></li>
+                    <li class="item"><a href="#preview">How It Works</a></li>
+                    <li class="item"><a href="#steps">Plan Your Trip</a></li>
                     <li class="item"><a href="#">Destinations</a></li>
                     <li class="item"><a href="#">Travel Stories</a></li>
                 </ul>
@@ -36,12 +38,12 @@
             <!-- /.header-nav -->
 
             <div class="header-login">
-                <a href="#"><button>Login</button></a>
+                <button>Login</button>
             </div>
             <!-- /.header-login -->
         </header>
         <!-- /.header -->
-        <section class="preview">
+        <section class="preview" id="preview">
             <div class="preview-container">
                 <h2 class="preview-title">
                     Explore the beauty of the World
@@ -49,8 +51,8 @@
                 <p class="preview-desc">
                     Receive personalized recommendations for countries, hotels, activities and more
                 </p>
-                <form action="" class="planning-search">
-                    <input type="search" name="" id="" placeholder="What would you like to do?">
+                <form action="get" class="planning-search">
+                    <input type="search" name="search" id="search" placeholder="What would you like to do?">
                     <button type="submit" class="planning-button">Start Planning</button>
                 </form>
             </div>
@@ -58,7 +60,36 @@
         </section>
         <!-- /.preview -->
     </div>
-    <!-- /.container -->
+    <!-- /.header-preview -->
+
+    <section class="steps" id="steps">
+        <h2 class="steps-title">3 STEPS TO THE PERFECT TRIP</h2>
+        <div class="steps-container">
+            <div class="step-bike">
+                <div class="step-square">
+                    <img src="./assets/img/svg/bike.svg" alt="Bike icon">
+                </div>
+                <p class="step-desc">Tell us what you want to do</p>
+            </div>
+            <!-- /.step-bike -->
+            <div class="step-calendar">
+                <div class="step-square">
+                    <img src="./assets/img/svg/calendar.svg" alt="Calendar icon">
+                </div>
+                <p class="step-desc">Share us preferable dates </p>
+            </div>
+            <!-- /.step-calendar -->
+            <div class="step-plane">
+                <div class="step-square">
+                    <img src="./assets/img/svg/plane.svg" alt="Plane icon">
+                </div>
+                <p class="step-desc">We will give you recommendations</p>
+            </div>
+            <!-- /.step-plane -->
+        </div>
+        <!-- /.steps-container -->
+    </section>
+    <!-- /.steps -->
 </body>
 
 </html>
