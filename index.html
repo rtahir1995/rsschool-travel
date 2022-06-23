@@ -31,7 +31,7 @@
                 <ul class="items">
                     <li class="item"><a href="#preview">How It Works</a></li>
                     <li class="item"><a href="#steps">Plan Your Trip</a></li>
-                    <li class="item"><a href="#">Destinations</a></li>
+                    <li class="item"><a href="#destinations">Destinations</a></li>
                     <li class="item"><a href="#">Travel Stories</a></li>
                 </ul>
             </nav>
@@ -51,7 +51,7 @@
                 <p class="preview-desc">
                     Receive personalized recommendations for countries, hotels, activities and more
                 </p>
-                <form action="get" class="planning-search">
+                <form action="#" class="planning-search">
                     <input type="search" name="search" id="search" placeholder="What would you like to do?">
                     <button type="submit" class="planning-button">Start Planning</button>
                 </form>
@@ -61,35 +61,76 @@
         <!-- /.preview -->
     </div>
     <!-- /.header-preview -->
+    <main>
+        <section class="steps" id="steps">
+            <h2 class="steps-title">3 STEPS TO THE PERFECT TRIP</h2>
+            <div class="steps-container">
+                <div class="step-bike">
+                    <div class="step-square">
+                        <img src="./assets/img/svg/bike.svg" alt="Bike icon">
+                    </div>
+                    <p class="step-desc">Tell us what you want to do</p>
+                </div>
+                <!-- /.step-bike -->
+                <div class="step-calendar">
+                    <div class="step-square">
+                        <img src="./assets/img/svg/calendar.svg" alt="Calendar icon">
+                    </div>
+                    <p class="step-desc">Share us preferable dates </p>
+                </div>
+                <!-- /.step-calendar -->
+                <div class="step-plane">
+                    <div class="step-square">
+                        <img src="./assets/img/svg/plane.svg" alt="Plane icon">
+                    </div>
+                    <p class="step-desc">We will give you recommendations</p>
+                </div>
+                <!-- /.step-plane -->
+            </div>
+            <!-- /.steps-container -->
+        </section>
+        <!-- /.steps -->
 
-    <section class="steps" id="steps">
-        <h2 class="steps-title">3 STEPS TO THE PERFECT TRIP</h2>
-        <div class="steps-container">
-            <div class="step-bike">
-                <div class="step-square">
-                    <img src="./assets/img/svg/bike.svg" alt="Bike icon">
+        <section class="destinations" id="destinations">
+            <h2 class="destinations-title"> POPULAR DESTINATIONS </h2>
+            <div class="slideshow">
+                <div class="slide slide1">
+                    <p class="slide-title">SPAIN</p>
                 </div>
-                <p class="step-desc">Tell us what you want to do</p>
-            </div>
-            <!-- /.step-bike -->
-            <div class="step-calendar">
-                <div class="step-square">
-                    <img src="./assets/img/svg/calendar.svg" alt="Calendar icon">
+                <!-- /.slide1 -->
+                <div class="slide slide2">
+                    <p class="slide-title">JAPAN</p>
                 </div>
-                <p class="step-desc">Share us preferable dates </p>
-            </div>
-            <!-- /.step-calendar -->
-            <div class="step-plane">
-                <div class="step-square">
-                    <img src="./assets/img/svg/plane.svg" alt="Plane icon">
+                <!-- /.slide2 -->
+                <div class="slide slide3">
+                    <p class="slide-title">USA</p>
                 </div>
-                <p class="step-desc">We will give you recommendations</p>
+                <!-- /.slide3 -->
             </div>
-            <!-- /.step-plane -->
-        </div>
-        <!-- /.steps-container -->
-    </section>
-    <!-- /.steps -->
+            <!-- /.slideshow -->
+
+            <div class="slideshow-circle">
+                <div class="slideshow-circle1"></div>
+                <!-- /.slideshow-circle1 -->
+                <div class="slideshow-circle2"></div>
+                <!-- /.slideshow-circle2 -->
+                <div class="slideshow-circle3"></div>
+                <!-- /.slideshow-circle3 -->
+            </div>
+            <!-- /.slideshow-circle -->
+
+            <button class="destination-button">
+                <img src="./assets/img/svg/arrow.svg" alt="Arrow">
+                Find More
+            </button>
+        </section>
+        <!-- /.destinations -->
+
+        <section class="stories">
+            <h2 class="stories-title">TRAVEL STORIES</h2>
+        </section>
+        <!-- /.stories -->
+    </main>
 </body>
 
 </html>

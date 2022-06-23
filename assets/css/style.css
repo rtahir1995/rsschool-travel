@@ -230,4 +230,111 @@ h2 {
         font-size: 20px;
         color: #0d606f;
     }
+
+    /* Destinations */
+    .destinations {
+        display: flex;
+        margin-top: 97px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .destinations-title {
+        margin-bottom: 46px;
+        font-family: 'Red Hat Text', sans-serif;
+        font-weight: 500;
+        font-size: 40px;
+        color: #F2785C;
+    }
+
+    .slideshow {
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .slide {
+        display: flex;
+        align-items: flex-end;
+        padding: 40px 14px;
+        min-width: 800px;
+        height: 800px;
+        border-radius: 16px;
+        margin: 0 60px;
+        border: 1px solid greenyellow;
+    }
+
+    .slide1 {
+        background-image: url(../img/files/spain.jpg);
+        background-size: contain;
+    }
+
+    .slide2 {
+        background-image: url(../img/files/japan.jpg);
+        background-size: contain;
+    }
+
+    .slide3 {
+        background-image: url(../img/files/usa.jpg);
+        background-size: contain;
+    }
+
+    .slide-title {
+        font-family: 'Red Hat Text', sans-serif;
+        font-weight: 500;
+        font-size: 32px;
+        color: #FFFFFF;
+    }
+
+    .slideshow-circle {
+        display: flex;
+    }
+
+    .slideshow-circle div {
+        height: 20px;
+        width: 20px;
+        margin: 24px 10px 40px;
+        border-radius: 50%;
+    }
+
+    .slideshow-circle1,
+    .slideshow-circle3 {
+        background-color: #f2785cb3;
+    }
+
+    .slideshow-circle2 {
+        background-color: #f2785c;
+    }
+
+    .destination-button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 228px;
+        height: 59px;
+        background-color: #0d606f;
+        border-radius: 10px;
+        cursor: pointer;
+        border: none;
+        color: #ffffff;
+        font-family: 'Red Hat Text', sans-serif;
+        font-weight: 500;
+        font-size: 24px
+    }
+
+    .destination-button:hover {
+        background-color: #1398b0;
+        transition: 0.4s;
+    }
+
+    .destination-button img {
+        margin-right: 12.5px;
+    }
+
+    /* Stories */
+    .stories {
+        margin-top: 80px;
+    }
 }
