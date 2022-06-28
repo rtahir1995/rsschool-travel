@@ -262,7 +262,6 @@ h2 {
         height: 800px;
         border-radius: 16px;
         margin: 0 60px;
-        border: 1px solid greenyellow;
     }
 
     .slide1 {
@@ -296,6 +295,7 @@ h2 {
         width: 20px;
         margin: 24px 10px 40px;
         border-radius: 50%;
+        cursor: pointer;
     }
 
     .slideshow-circle1,
@@ -333,8 +333,110 @@ h2 {
         margin-right: 12.5px;
     }
 
+    /* Stories and Footer container */
+
+    .stories-footer {
+        background-image: url(../img/images/background-footer-img.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     /* Stories */
+
+
     .stories {
         margin-top: 80px;
     }
+
+    .stories-title {
+        background-color: #ffffff;
+        color: #F2785C;
+        font-size: 40px;
+        font-weight: 500;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .articles {
+        background-color: #ffffffb3;
+        padding: 40px 120px 140px;
+        width: 100%;
+    }
+
+    .article1,
+    .article2,
+    .article3,
+    .article4 {
+        display: flex;
+        color: #0D606F;
+        font-weight: 600;
+        font-family: 'Aleo', serif;
+        margin-bottom: 30px;
+        justify-content: center;
+    }
+
+    .article-img {
+        margin-right: 40px;
+
+    }
+
+    /* .article-img img {
+        height: 250px;
+        width: 400px;
+    } */
+
+    .article-content {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+    }
+
+    .article-title {
+        font-size: 42px;
+    }
+
+    .article-desc {
+        font-size: 20px;
+    }
+
+    .article-content a {
+        color: #0D606F;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    /* Footer */
+
+    footer {
+        display: flex;
+        width: 100%;
+        background: none;
+        /* height: 61px; */
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    footer p {
+        color: #ffffff;
+    }
+
+    .rs-school {
+        height: 55px;
+        margin: 5px;
+    }
+
+    .social-nav {
+        display: flex;
+        list-style-type: none;
+    }
+
+    .social-nav li {
+        margin-right: 20px;
+    }
+
+    .social-nav img {
+        height: 30px;
+    }
+
 }
